@@ -27,15 +27,22 @@ public class Main {
         double totalTip = billAmount * tipDecimal;
         double tipPP = totalTip / numPeople;
 
+        System.out.println();
+        System.out.println("---------------------------------");
         System.out.println("Here is your bill!");
+        System.out.println("---------------------------------");
+        System.out.println();
         System.out.println("Total Bill (without tip): $" + billAmount);
         System.out.println("Tip Percentage: " + tipPercent + "%");
         System.out.println("Total Tip: $" + totalTip);
+        System.out.println();
         System.out.println("Total Bill: $" + billTotal);
         System.out.println();
+        System.out.println("---------------------------------");
         System.out.println("Costs Per Person:");
         System.out.println("Total Tip: $" + tipPP);
         System.out.println("Total Bill: $" + billTotalPP);
+        System.out.println("---------------------------------");
 
 
 
